@@ -1,0 +1,20 @@
+{
+  "name": "pull-chain",
+  "version": "0.1.0",
+  "description": "Chaining for pull-stream functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "keywords": [
+    "pull-stream"
+  ],
+  "author": "Markus Wunderlin",
+  "license": "MIT",
+  "dependencies": {
+    "pull-stream": "^2.24.0"
+  },
+  "devDependencies": {
+    "tape": "^2.13.3"
+  }
+}
