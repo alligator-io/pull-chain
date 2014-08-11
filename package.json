@@ -1,13 +1,20 @@
 {
   "name": "pull-chain",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Chaining for pull-stream functions",
   "main": "index.js",
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alligator-io/pull-chain.git"
+  },
   "keywords": [
-    "pull-stream"
+    "pull-stream",
+    "chain",
+    "chaining",
+    "streams"
   ],
   "author": "Markus Wunderlin",
   "license": "MIT",
