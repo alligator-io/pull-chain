@@ -3,7 +3,6 @@ var pull = require('pull-stream')
 var Chain = module.exports = function() {
   if (!(this instanceof Chain)) return new Chain()
   this._commands = []
-  return
 }
 
 Chain.prototype.pull = function() {

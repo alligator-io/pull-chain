@@ -1,6 +1,6 @@
 pull-chain
 ============
-Chaining for pull-stream functions.
+Chaining for [pull-stream](https://github.com/dominictarr/pull-stream) functions.
 
 ## Example
 ```javascript
@@ -14,7 +14,7 @@ chain()
 })
 .pull()
 ```
-
+**Note:** Test cases ported from [pull-stream](https://github.com/dominictarr/pull-stream).
 ## License
 
 MIT
